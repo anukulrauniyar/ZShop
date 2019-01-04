@@ -19,7 +19,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 public class HibernateConfig {
 	
 	private final String Database_Driver = "org.h2.Driver";
-	private final String Database_Url = "jdbc:h2:tcp://localhost/~/test";
+	private final String Database_Url = "jdbc:h2:tcp://localhost/~/shop";
 	private final String Database_UserName = "sa";
 	private final String Database_Password = "";
 	private final String Database_Dialect = "org.hibernate.dialect.H2Dialect";
